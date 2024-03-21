@@ -27,7 +27,7 @@
 
 @font-face  {
     font-family: WorkSans;
-    src: url(../css/WorkSans-Bold.ttf);
+    src: url(./assets/fonts/WorkSans-Bold.ttf);
 }
 h1{
     font-family: WorkSans;
@@ -36,7 +36,7 @@ h1{
 
 }
 .heading{
-    background-image: url(icon-star.svg);
+    background-image: url(./assets/images/icon-star.svg);
     display: flex;
     gap:220px;
     height: 39px;
@@ -45,12 +45,12 @@ h1{
 }
 @font-face {
     font-family: WorkSans-italic;
-    src: url(../css/WorkSans-Italic-VariableFont_wght.ttf);
+    src: url(./assets/fonts/static/WorkSans-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: WorkSans-semibold;
-    src: url(../css/WorkSans-Bold.ttf);
+    src: url(./assets/fonts/WorkSans-Bold.ttf);
 }
 h2{
     font-family: WorkSans-semibold;
@@ -58,7 +58,7 @@ h2{
 }
 @font-face {
     font-family: VariableFont;
-    src: url(../css/WorkSans-Italic-VariableFont_wght.ttf);
+    src: url(./assets/fonts/static/WorkSans-VariableFont_wght.ttf);
 }
 p{
     font-family: VariableFont;
@@ -66,7 +66,7 @@ p{
 }
 body{
    
-    background-image: url(../css/background-pattern-desktop.svg);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
     background-size: 180% 10%;
 
     background-repeat: no-repeat;
