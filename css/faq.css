@@ -1,0 +1,96 @@
+*{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.container{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    border-radius: 100px;
+     background-color: rgba(255, 255, 255, 0.5); /*Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+   
+    
+   
+}
+.faq{
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height:19px;
+}
+
+@font-face  {
+    font-family: WorkSans;
+    src: url(../css/WorkSans-Bold.ttf);
+}
+h1{
+    font-family: WorkSans;
+   
+    
+
+}
+.heading{
+    background-image: url(icon-star.svg);
+    display: flex;
+    gap:220px;
+    height: 39px;
+    width: 39px;
+   
+}
+@font-face {
+    font-family: WorkSans-italic;
+    src: url(../css/WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: WorkSans-semibold;
+    src: url(../css/WorkSans-Bold.ttf);
+}
+h2{
+    font-family: WorkSans-semibold;
+    font-size: 20px;
+}
+@font-face {
+    font-family: VariableFont;
+    src: url(../css/WorkSans-Italic-VariableFont_wght.ttf);
+}
+p{
+    font-family: VariableFont;
+    font-size: 16px;
+}
+body{
+   
+    background-image: url(../css/background-pattern-desktop.svg);
+    background-size: 180% 10%;
+
+    background-repeat: no-repeat;
+    
+
+  
+}
+.h2{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.h2 h2{
+    margin-right: 20px;
+}
+.plus-btn,
+.min-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 20px; /* Set the width of the icon */
+  height: 20px; /* Set the height of the icon */
+  cursor: pointer;
+}
+.hide{
+    display: none;
+}
